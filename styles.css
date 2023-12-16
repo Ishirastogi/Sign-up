@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+    padding: 15px;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(84, 84, 169);
+}
+input{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    font-weight: bold;
+
+}
+.signupbtn{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.358);
+border-radius: 10px;
+    
+}
+.loginbtn{
+    padding: 10px;
+}
+p{
+    color: white;
+}
+.checkbox{
+    color: white;
+}

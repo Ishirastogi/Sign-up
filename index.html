@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="container">
+    <div class="input_div">
+    <h1>Sign Up</h1>
+    <label for="name"></label>
+    <input type="text" placeholder="Enter your first name" required> 
+    <label for="lname"></label>
+ <input for="text" placeholder="Enter your last name" required>
+</div>
+
+<div>
+ <label for="email"></label>
+    <input id="email" type="text" placeholder="Enter Email" name="email" required>
+</div>
+
+<div>
+<label for="pwd"></label>
+<input id="password"type="text" placeholder="Enter password" name="pwd" required>
+</div>
+
+<div>
+<label for="conf-pass"></label>
+<input id="conf-pass" type="text" placeholder="Confirm password" name="conf-pass" required>
+</div>
+<div class="checkbox">
+<label>
+    <input type="checkbox">I accept the Terms of Use & Privacy Policy
+</label>
+</div>
+
+<div class="clearfix">
+<button onclick="displayDate()" type="submit" id="upbtn" class="signupbtn"><b></b>Sign Up</button>
+</div>
+
+<div class="loginbtn">
+    <p>Already have an account?<button onclick="handleLogin()" class="submibtn" type="submit">Login here</button></p>
+</div>
+<div class="copy">
+    <p>Copyright <i class="fa fa-sharp fa-regular fa-copyright"> YourCompany.com</i></p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
